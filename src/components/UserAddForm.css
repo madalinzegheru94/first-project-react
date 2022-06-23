@@ -1,0 +1,24 @@
+.user-add-form h2{
+    color: blue;
+}
+.user-add-form{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    
+}
+ #email-id:hover{
+    background-color: rgb(163, 165, 241);
+    
+}
+#name-id:hover{
+    background-color: rgb(163, 165, 241);
+}
+#gold-client:hover{
+    color: rgb(250, 53, 4);
+}
+#button:hover{
+    
+    color: rgb(253, 8, 8);
+
+}
