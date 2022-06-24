@@ -1,0 +1,11 @@
+.user-item{
+    border: solid rgb(63, 56, 56);
+    background-color:rgb(192, 191, 127) ;
+    border-radius: 20px;
+    width: 300px;
+
+}
+.user-item button {
+    display: flex;
+    align-self: flex-end;
+}

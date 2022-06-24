@@ -1,6 +1,7 @@
 import React from 'react';
 // nu uitai sa importati componentele folosite!
 import UserItem from './UserItem';
+import './UserList.css';
 
 // ATENTIE! Singurul motiv pentru care am facut componenta UserList sa fie clasa este pentru
 // a avea acces la lyfecycle methods. Acestea nu sunt disponibile in cadrul unei componente
@@ -59,7 +60,8 @@ class UserList extends React.Component{
         return (
             <div>
                 <h2>Lista Utilizatori:</h2>
-                
+                <div className='page-view'>
+                <div className='user-list'>
                 {users.map((user, index) => {
                     
                     return <UserItem
@@ -74,6 +76,10 @@ class UserList extends React.Component{
                         key={index}
                     />
                 })}
+               
+            </div>
+            
+            </div>
             </div>
         );
     }

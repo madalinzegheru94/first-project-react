@@ -1,0 +1,9 @@
+.user-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 15px;
+}
+.page-view{
+    display: flex;
+    align-content: space-between;
+}

@@ -1,0 +1,23 @@
+.about-us h2:hover{
+    color: maroon;
+}
+.about-us #about-img-01{
+    width: 300px;
+    height: 240px;
+}
+.about-us #about-img-02{
+    width: 330px;
+    height: 330px;
+}
+.first-img-and-paragraf{
+    display: flex;
+    align-content: flex-start;
+}
+.second-img-and-paragraf{
+    display: flex;
+    align-content: flex-start;
+}
+.page-content{
+    margin-left: 5%;
+    margin-right: 5%;
+}

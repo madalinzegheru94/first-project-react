@@ -1,0 +1,7 @@
+.header .links{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    gap:10px;
+    justify-content: flex-start;
+}
