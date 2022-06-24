@@ -6,10 +6,16 @@
 .app h1 {
   margin-top: 0;
   text-align: center;
+  border: solid cornflowerblue;
+  background-color: rgb(113, 160, 248);
 }
 button:hover {
   color: aliceblue;
   background-color: black;
+
+}
+button {
+  border-radius: 5px;
 
 }
 
@@ -22,7 +28,7 @@ button:hover {
   width: 100%;
 }
 .add-form{
-  margin-left: 5%;
+  
   margin-right: 5%;
   display: flex;
   justify-content: space-between;
@@ -33,4 +39,30 @@ button:hover {
 }
 .users-list{
   margin-left: 5%;
+  
+}
+.text-color{
+  border: solid rgb(87, 95, 87);
+  background-color: rgb(113, 160, 248);
+  border-radius: 15px;
+  width: 190px;
+}
+.background-color{
+  border: solid rgb(87, 95, 87);
+  background-color: rgb(113, 160, 248);
+  border-radius: 15px;
+  width: 190px;
+
+}
+.color-buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+.background-img{
+  background-image: url("https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  margin-left: 5%;
+  margin-right: 5%;
 }
